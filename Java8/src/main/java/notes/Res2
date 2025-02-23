@@ -1,0 +1,90 @@
+%\cvsection{Education}
+ %\cvevent{B.E. (Mechanical) - 8.6 CGPA}{BMS Institute of Technology}{ 2017 -- 2021 }{}
+ %\cvevent{Higher Secondary - 88\%}{M.P and E.V English Medium School}{ 2016 }{}
+% \cvevent{Secondary - 9 CGPA }{Notre Dame Academy}{ 2014 }{}
+% \cvachievement{\faTrophy}{}{Received accolades at Atos for Best Performance in team.}
+% \cvachievement{\faTrophy}{}{Received Best Debut Award at Atos. }
+% %\divider
+% \cvachievement{\faInstitution}{}{Won 2nd Consolation Prize for paper presented on Cognitive Radio Networks.}
+% %\divider
+% \cvachievement{\faGraduationCap}{}{Got Selected in "Exclusive Scholar Program" during undergrad.}
+% %\divider
+% \cvachievement{\faDollar}{}{Awarded with Narotam Sekhsaria Foundation Scholarship}
+%\cvsection{Strengths}
+
+%\cvtag{Hard-working (18/24)} 
+%\cvtag{Persuasive}
+%\cvtag{Motivator \& Leader}
+
+%\divider\smallskip
+
+%\cvtag{UX}
+%\cvtag{Mobile Devices \& Applications}
+%\cvtag{Product Management \& Marketing}
+
+
+%\divider
+
+%\cvevent{B.S.\ in Symbolic Systems}{Stanford University}{Sept 1993 -- June 1997}{}
+
+\cvsection{Projects}
+
+\cvproject 
+{\href{https://github.com/ankeshaman/Employee_Management_System/tree/master}{Employee Management System}}
+\begin{itemize}
+\item \textbf{SpringBoot | Spring Data JPA | Microservices | MySQL | Spring Security} 
+\item This application is intended for organizing information about the employee's affiliation with which organization and department inside that specific organization. \
+\item Integrated database systems, such as MySQL using \textbf{JDBC} and \textbf{Hibernate ORM}, ensuring data persistence and efficient
+querying. \
+\item services are registered with the \textbf{Spring Cloud Netflix Eureka Server},\textbf{API Gateway} used to direct UI req to the correct server. \
+\item To disperse the load,loadbalancer was constructed using the \textbf{SpringCloud LB module.}\
+\href{https://github.com/ankeshaman/Employee_Management_System/tree/master}{Github}
+\href{}{}
+\end{itemize}
+%\smallskip
+%\smallskip
+
+\cvproject {\href{https://github.com/ankeshaman/ewallet}{E-Wallet}}
+\begin{itemize}
+\item \textbf{SpringBoot | Microservices | Redis | Kafka | Spring Data JPA | JAVA | MySQL } 
+\item Application that allows users to transfer and receive money from any registered  user. \
+\item Based on \textbf{business requirements},application segmented into many \textbf{services},and \textbf{Kafka} used to communicate amongst the various services. \
+\item Implemented \textbf{JWT authentication} to securely authorize and authenticate users. \
+\item implemented \textbf{Circuit Breaker Pattern} to avoid continuous call to the system in downtime.\
+\item \textbf{distributed tracing} was done using the \textbf{spring cloud sleuth module}. \
+\href{https://github.com/ankeshaman/ewallet}{Github}
+\href{}{}
+\end{itemize}
+%\smallskip
+%\smallskip
+% \cvproject {\href{https://github.com/ankeshaman/Smartshop}{SmartShop}}
+% \begin{itemize}
+% \item \textbf{SpringBoot | Spring Data JPA | JAVA | MySQL | Material UI | Stripe}
+% \item an application has been created where users can shop the shop the different category of product.User also get credit/reward for the product that they purchase and can use their credit
+% \href{}{}
+% \end{itemize}
+% \smallskip
+%\smallskip
+\cvproject {\href{}{Search NGO}} 
+\begin{itemize}
+\item \textbf{SpringBoot | Spring Data JPA | MySQL |JAVA8}
+\item This application used to handle the problem of users looking for their nearest NGO to accord some products, as well as the NGO sending their requirement to the users by adding their requirement to the app. \
+\item \textbf{Spring Boot actuator} used for monitoring %and interact with the %app. \
+\item Developed \textbf{REST APIs} with proper \textbf{exception handling, logging and Junit test cases}, ensuring the reliability and quality of the app.\
+% \item Incoming traffic is routed to several servers using a load balancer.\
+\href{}{}
+\end{itemize}
+%\smallskip
+%\smallskip
+\cvsection{Coursework Sub} 
+\smallskip
+\begin{itemize}
+\item \textbf{Object Oriented Principles(OOP)}, 
+ \textbf{Relational Database,Kubernetes,Docker,Caching, Camel}
+% \smallskip
+\end{itemize}
+\cvproject{}
+\cvsection{Education}
+ \cvevent{B.E. (ME) - 8.6 CGPA}{BMS Institute of Technology}{ 2017 -- 2021 }{}
+ 
+

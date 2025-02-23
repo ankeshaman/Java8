@@ -1,0 +1,221 @@
+\documentclass[10pt,a4paper,ragged2e]{altacv}
+\geometry{left=2cm,right=10cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1.25cm,bottom=1.25cm}
+\ifxetexorluatex
+  \setmainfont{Carlito}
+\else
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage[default]{lato}
+  \usepackage{hyperref}
+  \hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
+\fi
+\definecolor{VividPurple}{HTML}{000000}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{2E2E2E}
+\colorlet{heading}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+\addbibresource{sample.bib}
+
+\begin{document}
+\name{Ankesh Aman}
+\tagline{Software Engineer}
+% Cropped to square from https://en.wikipedia.org/wiki/Marissa_Mayer#/media/File:Marissa_Mayer_May_2014_(cropped).jpg, CC-BY 2.0
+%\photo{3.3cm}{profile.jpg}
+\personalinfo{%
+  % Not all of these are required!
+  % You can add your own with \printinfo{symbol}{detail}
+  \phone{+91-9304594495}
+  \email{ankeshaman333@gmail.com}
+%   \phone{000-00-0000}
+%  \mailaddress{Address, Street, 00000 County}
+  \location{Bengaluru - India}
+%  \homepage{marissamayr.tumblr.com/}
+%  \twitter{@marissamayer}
+  \linkedin{\href{https://www.linkedin.com/in/ankesh-aman-51a0a510a/}{Linkedin}}
+  \github{\href{https://github.com/ankeshaman}{Github}}
+  \leetcode{\href{https://leetcode.com/ankeshaman333/}{Leetcode}}
+%   \orcid{orcid.org/0000-0000-0000-0000} % Obviously making this up too. If you want to use this field (and also other academicons symbols), add "academicons" option to \documentclass{altacv}
+}
+
+%% Make the header extend all the way to the right, if you want.
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+%% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
+\AtBeginEnvironment{itemize}{\small}
+
+%% Provide the file name containing the sidebar contents as an optional parameter to \cvsection.
+%% You can always just use \marginpar{...} if you do
+%% not need to align the top of the contents to any
+%% \cvsection title in the "main" bar.
+\cvsection[page1sidebar]{Experience}
+
+\cvevent {\textbf{Software Developer}}{}{\textbf{March 2021 -- present}}{ \textbf{Bengaluru, India}}
+%\begin{itemize}
+\cvproject {\href{}{Cica Pvt. Ltd. }}
+\begin{itemize}
+\item \textbf{SpringBoot | Hibernate | JSP | Spring Data JPA | JAVA 8 | MySQL | OAuth } 
+\item Developed and maintained Java backend components for web
+applications, ensuring efficient and scalable solutions. \
+\item Configured and optimized \textbf{load balancers} to evenly distribute or Splitting traffic, improving \textbf{application responsiveness and user experience}, resulting in a \textbf{50 percent} reduction in server response time. \
+\item Collaborated with cross-functional teams to integrate \textbf{CI/CD pipelines}, automating the deployment process and reducing \textbf{release cycles by 35 percent}.\
+\item Monitored and analyzed system performance metrics, proactively identifying and resolving issues, which led to a \textbf{25 percent} increase in overall \textbf{system stability and reliability}. \
+%\item Played a key role in troubleshooting and resolving critical \textbf{production issues}, ensuring \textbf{minimal downtime} and maintaining user satisfaction.
+\href{}{}
+\end{itemize}
+%\smallskip
+\smallskip
+\cvproject {\href{}{Chubb Insurance Company}}
+\begin{itemize}
+\item \textbf{SpringBoot | Apache Camel | Kafka | Microservices | JAVA 8 | MySQL | Data Lake | Prometheus | Grafana} 
+\item Developed microservices using SpringBoot enhancing \textbf{modularity} and \textbf{scalability} of applications, resulting in a \textbf{30 percent} improvement in \textbf{system performance}. \
+%\item Leveraged \textbf{Apache Camel} for seamless integration of enterprise systems,enabling efficient routing and transformation of data across various endpoints.
+%\item Designed and implemented complex integration workflows, enhancing data flow automation and improving system interoperability in a \textbf{microservices-based architecture}.
+\item Implemented \textbf{event-driven} architecture with \textbf{Apache Kafka} for real-time data processing and messaging, leading to a \textbf{40 percent} reduction in \textbf{data latency} and a \textbf{25 percent} increase in \textbf{throughput}. \ 
+\item Deployed and managed applications on Microsoft Azure, ensuring \textbf{high availability and reliability}%, which contributed to a \textbf{20 percent} decrease in \textbf{downtime} and a \textbf{15 percent cost savings} through optimized resource utilization.. \
+%\item Monitored and analyzed system performance metrics, proactively identifying and resolving issues, which led to a \textbf{25 percent} increase in overall \textbf{system stability and reliability}. \
+\item Following \textbf{Agile \& Scrum practices}, collaborating with cross-functional teams to deliver iterative,high-quality software.
+\end{itemize}
+\\
+\divider
+%\divider
+
+\cvsection{Achievements}
+\smallskip
+\begin{itemize} 
+
+\item Awarded Employee of the year.
+% \smallskip
+\item Achieved world rank 450 in Codechef Contest.
+% \smallskip
+% \smallskip
+\item Comes under top 25percent in Problem Solving on Leetcode.
+% \item Made \textbf{48 Personal Projects} in Web Development (Frontend + Backend) using Different Web Technologies.
+% \smallskip
+% \item Solved Over \textbf{250 Coding Questions} on Different Coding Websites.\\
+\end{itemize}
+\\
+\cvsection{TECHNICAL SKILLS}
+\begin{itemize}
+\item \large{Programming Languages }
+% \begin{itemize}
+ % \smallskip
+    \textbf{Java 8, Javascript} 
+%\item \textbf{Python}
+  %\end{itemize}
+  \smallskip
+  \item \large{{Frameworks \& Libraries}} 
+  %\begin{itemize}
+  \smallskip
+  \smallskip
+    \textbf{Rest API}, \textbf{Data Structure \& Algorithm},  \textbf{Microservices},\textbf{ Hibernate},   
+\textbf{SpringBoot}, \textbf{JPA,} 
+\textbf{MySQL}, \textbf{kafka},\textbf{Java EE},
+\textbf{JUnit/Mockito,Spring MVC,Maven,Splunk}
+  %\end{itemize}
+  \smallskip
+  \smallskip
+  \item \large{{Tools}}
+  %\begin{itemize}
+  %\smallskip
+    \textbf{Git,Gitlab,Sonar},\textbf{Jira},\textbf{Jenkins,Postman} 
+  %\end{itemize}
+   %\smallskip
+  %\smallskip
+ % \item \large{\textbf{Other Tools}}
+  %\begin{itemize}
+  %\smallskip
+    %\textbf{Postman}  
+  %\end{itemize}
+\end{itemize}
+% \paragraph{Programming Languages} 
+% \smallskip
+% \begin{itemize}
+% \item C++ 
+% \item C
+% \item Javascript
+% \end{itemize}
+% \paragraph{Frameworks \& Libraries} \; 
+% \smallskip
+% \smallskip
+% \begin{itemize}
+% \item \textbf{HTML}, \textbf{CSS}, \textbf{Javascript}
+% \item \textbf{ReactJS}, \textbf{NodeJS}, \textbf{ExpressJS}  
+% \item \textbf{MongoDB}, \textbf{Firebase}, \textbf{SanityIO} 
+% \item \textbf{Bootstrap}, \textbf{Tailwind CSS}, \textbf{Material UI} 
+% \end{itemize}
+\smallskip
+
+%\cvsection{Coursework Subjects} 
+%\smallskip
+%\begin{itemize}
+%\item \textbf{Object Oriented Programming}, 
+%\textbf{Database Management System}, \textbf{HLD}
+%\smallskip
+%\end{itemize}
+
+%\cvsection{Education}
+%\cvevent{B.E. (Mechanical) - 8.6 CGPA}{BMS Institute of Technology}{ 2017 -- 2021 }{Yelahankah, Bengaluru}{}
+%\cvevent{Higher Secondary - 88\%}{M.P and E.V English Medium School}{ 2016 }%{Boyapalam, Vishakhapatnam}{}
+%\cvevent{Secondary - 9 CGPA }{Notre Dame Academy, Barh, Patna}{ 2014 }{Barh, %Patna}{}
+
+% \cvevent{Product Engineer}{Google}{23 June 1999 -- 2001}{Palo Alto, CA}
+
+% \begin{itemize}
+% \item Joined the company as employe \#20 and female employee \#1
+% \item Developed targeted advertisement in order to use user's search queries and show them related ads
+% \end{itemize}
+
+%\cvsection{A Day of My Life}
+
+% Adapted from @Jake's answer from http://tex.stackexchange.com/a/82729/226
+% \wheelchart{outer radius}{inner radius}{
+% comma-separated list of value/text width/color/detail}
+% Some ad-hoc tweaking to adjust the labels so that they don't overlap
+% \wheelchart{1.5cm}{0.5cm}{%
+%   10/10em/accent!30/Sleeping \& dreaming about work,
+%   25/9em/accent!60/Public resolving issues with Yahoo!\ investors,
+%   5/13em/accent!10/\footnotesize\\[1ex]New York \& San Francisco Ballet Jawbone board member,
+%   20/15em/accent!40/Spending time with family,
+%   5/8em/accent!20/\footnotesize Business development for Yahoo!\ after the Verizon acquisition,
+%   30/9em/accent/Showing Yahoo!\ employees that their work has meaning,
+%   5/8em/accent!20/Baking cupcakes
+% }
+
+\clearpage
+
+% \cvsection[page2sidebar]{Publications}
+
+\nocite{*}
+
+% \printbibliography[heading=pubtype,title={\printinfo{\faBook}{Books}},type=book]
+
+% \divider
+
+% \printbibliography[heading=pubtype,title={\printinfo{\faFileTextO}{Journal Articles}}, type=article]
+
+% \divider
+
+% \printbibliography[heading=pubtype,title={\printinfo{\faGroup}{Conference Proceedings}},type=inproceedings]
+
+% %% If the NEXT page doesn't start with a \cvsection but you'd
+% %% still like to add a sidebar, then use this command on THIS
+% %% page to add it. The optional argument lets you pull up the
+% %% sidebar a bit so that it looks aligned with the top of the
+% %% main column.
+% % \addnextpagesidebar[-1ex]{page3sidebar}
+
+
+\end{document}
