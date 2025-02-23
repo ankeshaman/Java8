@@ -1,0 +1,45 @@
+Stream API:
+-------------------
+Stream : a sequnece of no we get from collections on which we can apply declarative and functional programming.
+
+Advantages of stream APi:
+--------------------------------
+a) Readability : Stream provide more readable and expressive way to perform operations on collections.
+b) Parallelism : Stream can be processed in parallel. Arrays can be broken down into chunks and each chunks will get
+                 picked up by each thread.
+
+Stream API:
+---------------------------
+a) Filter : Stream<T> filter(Predicate<? super T> predicate);
+           takes Predicate Functional Interface as a argument which is an bollean function contains Test abstract method
+           used to filter the value out of all the streams of val based on some condition
+
+b) Map : <R> Stream<R> map(Function<? super T, ? extends R> mapper);
+          takes FUnction as an argument which takes some val and return some val by doing some operation on that val
+          Function contains apply abstract method
+
+c) mapToInt(return stream of Integer after applying the operation), similarly mapToLong,mapToDouble
+d) flatMap : it does 2 operation one is map and then flatten the results return from map
+             it converts Stream<List<DataType>> to Stream<DataType>
+             [[1,2,3],[4,5,6]] -> [1,2,3,4,5,6]
+e) skip :  Returns a stream consisting of the remaining elements of this stream after discarding the first n
+           elements of the stream. If this stream contains fewer than n elements then an empty stream will be returned.
+f) Distinct : It will return stream of distinct val.
+g) sorted : it will returns a stream consisting of the elements of this stream, sorted according to ascending or desc
+h) limit : it limit a range of val upto specified range
+i) Peek : This method exists mainly to support debugging, where you want to see the elements as they flow past
+          a certain point in a pipeline
+j) Max : Returns the maximum element of this stream according to the provided Comparator.
+         If array is sorted in ascending order then it will give the max val
+         if array is sorted in desc order then it will give smallest val
+         i.e., it will always give last val from arr;
+k) Min : opposite of max
+         Terminal operation, returns Optional so use get method to get Value.
+l) Count : Returns the count of elements in this stream. Terminal operation
+m) anyMatch : Returns whether any elements of this stream match the provided predicate
+n) allMatch : Returns whether all elements of this stream match the provided predicate
+              a short terminal operation
+o) findFirst :  returns a first element from list
+                short circuting terminal operation
+p) concat : used to concat 2 or more stream
+q) mapToInt() :  used to get stream of Integer from stream
